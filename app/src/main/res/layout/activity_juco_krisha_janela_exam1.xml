@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".JucoKrishaJanelaExam1">
+
+    <View
+        android:id="@+id/view1"
+        style="@style/view1"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/imageKJ"
+        app:srcCompat="@drawable/kendalljenner" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/kendall"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/kj"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/desc1"
+        />
+
+    <View
+        android:id="@+id/view2"
+        style="@style/view2"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/imageDL"
+        app:srcCompat="@drawable/dualipa" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/dua"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/dl" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/desc2"
+       />
+
+
+    <View
+        android:id="@+id/view3"
+        style="@style/view3"
+         />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/imageKM"
+        app:srcCompat="@drawable/kelseymerritt" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/kelsey"
+         />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/km"
+         />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/desc3"
+        />
+
+
+</RelativeLayout>
